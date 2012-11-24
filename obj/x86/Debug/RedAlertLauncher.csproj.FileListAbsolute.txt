@@ -1,0 +1,11 @@
+C:\Users\Maikel\Desktop\RedAlertLauncher\bin\Debug\RedAlertLauncher.exe.config
+C:\Users\Maikel\Desktop\PortableRA\RedAlertLauncher.exe.config
+C:\Users\Maikel\Desktop\RedAlertLauncher\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Maikel\Desktop\RedAlertLauncher\obj\x86\Debug\RedAlertLauncher.Properties.Resources.resources
+C:\Users\Maikel\Desktop\RedAlertLauncher\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\Maikel\Desktop\RedAlertLauncher\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\Maikel\Desktop\PortableRA\RedAlertLauncher.exe
+C:\Users\Maikel\Desktop\PortableRA\RedAlertLauncher.pdb
+C:\Users\Maikel\Desktop\RedAlertLauncher\obj\x86\Debug\RedAlertLauncher.exe
+C:\Users\Maikel\Desktop\RedAlertLauncher\obj\x86\Debug\RedAlertLauncher.pdb
+C:\Users\Maikel\Desktop\RedAlertLauncher\obj\x86\Debug\RedAlertLauncher.Form1.resources
