@@ -49,7 +49,7 @@
             this.but_OpenSkirmish = new System.Windows.Forms.Button();
             this.panel13 = new System.Windows.Forms.Panel();
             this.panel14 = new System.Windows.Forms.Panel();
-            this.But_Exit = new System.Windows.Forms.Button();
+            this.but_Exit = new System.Windows.Forms.Button();
             this.panel15 = new System.Windows.Forms.Panel();
             this.panel16 = new System.Windows.Forms.Panel();
             this.but_Configuration = new System.Windows.Forms.Button();
@@ -120,7 +120,7 @@
             this.but_PlayOnline.Padding = new System.Windows.Forms.Padding(5);
             this.but_PlayOnline.Size = new System.Drawing.Size(336, 31);
             this.but_PlayOnline.TabIndex = 3;
-            this.but_PlayOnline.Text = "Play Online (CnCNet)";
+            this.but_PlayOnline.Text = "Online";
             this.but_PlayOnline.UseCompatibleTextRendering = true;
             this.but_PlayOnline.UseVisualStyleBackColor = false;
             this.but_PlayOnline.Click += new System.EventHandler(this.but_PlayOnline_Click);
@@ -155,7 +155,7 @@
             this.but_LaunchAntMissions.Padding = new System.Windows.Forms.Padding(5);
             this.but_LaunchAntMissions.Size = new System.Drawing.Size(336, 31);
             this.but_LaunchAntMissions.TabIndex = 6;
-            this.but_LaunchAntMissions.Text = "Launch Ant Missions";
+            this.but_LaunchAntMissions.Text = "Ant Missions";
             this.but_LaunchAntMissions.UseCompatibleTextRendering = true;
             this.but_LaunchAntMissions.UseVisualStyleBackColor = false;
             this.but_LaunchAntMissions.Click += new System.EventHandler(this.but_LaunchAntMissions_Click);
@@ -167,6 +167,7 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(333, 1);
             this.panel7.TabIndex = 11;
+            this.panel7.Visible = false;
             // 
             // panel8
             // 
@@ -175,6 +176,7 @@
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(1, 28);
             this.panel8.TabIndex = 10;
+            this.panel8.Visible = false;
             // 
             // but_LaunchNewMissions
             // 
@@ -190,9 +192,10 @@
             this.but_LaunchNewMissions.Padding = new System.Windows.Forms.Padding(5);
             this.but_LaunchNewMissions.Size = new System.Drawing.Size(336, 31);
             this.but_LaunchNewMissions.TabIndex = 9;
-            this.but_LaunchNewMissions.Text = "Launch New Missions";
+            this.but_LaunchNewMissions.Text = "New Missions";
             this.but_LaunchNewMissions.UseCompatibleTextRendering = true;
             this.but_LaunchNewMissions.UseVisualStyleBackColor = false;
+            this.but_LaunchNewMissions.Visible = false;
             this.but_LaunchNewMissions.Click += new System.EventHandler(this.but_LaunchNewMissions_Click);
             // 
             // panel9
@@ -225,7 +228,7 @@
             this.but_OpenLAN.Padding = new System.Windows.Forms.Padding(5);
             this.but_OpenLAN.Size = new System.Drawing.Size(336, 31);
             this.but_OpenLAN.TabIndex = 15;
-            this.but_OpenLAN.Text = "Open LAN Menu";
+            this.but_OpenLAN.Text = "LAN Menu";
             this.but_OpenLAN.UseCompatibleTextRendering = true;
             this.but_OpenLAN.UseVisualStyleBackColor = false;
             this.but_OpenLAN.Click += new System.EventHandler(this.but_OpenLAN_Click);
@@ -260,7 +263,7 @@
             this.but_OpenSkirmish.Padding = new System.Windows.Forms.Padding(5);
             this.but_OpenSkirmish.Size = new System.Drawing.Size(336, 31);
             this.but_OpenSkirmish.TabIndex = 12;
-            this.but_OpenSkirmish.Text = "Open Skirmish Menu";
+            this.but_OpenSkirmish.Text = "Skirmish Menu";
             this.but_OpenSkirmish.UseCompatibleTextRendering = true;
             this.but_OpenSkirmish.UseVisualStyleBackColor = false;
             this.but_OpenSkirmish.Click += new System.EventHandler(this.but_OpenSkirmish_Click);
@@ -281,24 +284,24 @@
             this.panel14.Size = new System.Drawing.Size(1, 28);
             this.panel14.TabIndex = 22;
             // 
-            // But_Exit
+            // but_Exit
             // 
-            this.But_Exit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.But_Exit.CausesValidation = false;
-            this.But_Exit.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.But_Exit.FlatAppearance.BorderSize = 10;
-            this.But_Exit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.But_Exit.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.But_Exit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.But_Exit.Location = new System.Drawing.Point(26, 319);
-            this.But_Exit.Name = "But_Exit";
-            this.But_Exit.Padding = new System.Windows.Forms.Padding(5);
-            this.But_Exit.Size = new System.Drawing.Size(336, 31);
-            this.But_Exit.TabIndex = 21;
-            this.But_Exit.Text = "Exit";
-            this.But_Exit.UseCompatibleTextRendering = true;
-            this.But_Exit.UseVisualStyleBackColor = false;
-            this.But_Exit.Click += new System.EventHandler(this.But_Exit_Click);
+            this.but_Exit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.but_Exit.CausesValidation = false;
+            this.but_Exit.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.but_Exit.FlatAppearance.BorderSize = 10;
+            this.but_Exit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.but_Exit.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_Exit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.but_Exit.Location = new System.Drawing.Point(26, 319);
+            this.but_Exit.Name = "but_Exit";
+            this.but_Exit.Padding = new System.Windows.Forms.Padding(5);
+            this.but_Exit.Size = new System.Drawing.Size(336, 31);
+            this.but_Exit.TabIndex = 21;
+            this.but_Exit.Text = "Exit";
+            this.but_Exit.UseCompatibleTextRendering = true;
+            this.but_Exit.UseVisualStyleBackColor = false;
+            this.but_Exit.Click += new System.EventHandler(this.But_Exit_Click);
             // 
             // panel15
             // 
@@ -330,7 +333,7 @@
             this.but_Configuration.Padding = new System.Windows.Forms.Padding(5);
             this.but_Configuration.Size = new System.Drawing.Size(336, 32);
             this.but_Configuration.TabIndex = 18;
-            this.but_Configuration.Text = "Configuration";
+            this.but_Configuration.Text = "Options";
             this.but_Configuration.UseCompatibleTextRendering = true;
             this.but_Configuration.UseVisualStyleBackColor = false;
             this.but_Configuration.Click += new System.EventHandler(this.but_Configuration_Click);
@@ -345,7 +348,7 @@
             this.ClientSize = new System.Drawing.Size(393, 365);
             this.Controls.Add(this.panel13);
             this.Controls.Add(this.panel14);
-            this.Controls.Add(this.But_Exit);
+            this.Controls.Add(this.but_Exit);
             this.Controls.Add(this.panel15);
             this.Controls.Add(this.panel16);
             this.Controls.Add(this.but_Configuration);
@@ -376,7 +379,6 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Red Alert Launcher";
-            this.TopMost = true;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
@@ -404,7 +406,7 @@
         private System.Windows.Forms.Button but_OpenSkirmish;
         private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.Button But_Exit;
+        private System.Windows.Forms.Button but_Exit;
         private System.Windows.Forms.Panel panel15;
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.Button but_Configuration;
