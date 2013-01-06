@@ -107,7 +107,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.ico" />
+    <Content Include="RA_Red_Alert_Cover.ico" />
     <Content Include="red-alert-b.ico" />
+    <Content Include="red-alert.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

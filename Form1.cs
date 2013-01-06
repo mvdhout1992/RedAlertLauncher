@@ -131,22 +131,8 @@ namespace RedAlertLauncher
 
         private void but_LaunchAntMissions_Click(object sender, EventArgs e)
         {
-            if (File.Exists("counterstrike.mix"))
-            {
-                System.Diagnostics.Process.Start(Path_ + seperator + "ra95.exe", "-ANTMISSIONS");
-                Application.Exit();
-            }
-            else
-            {
-                MessageBox.Show("You need to have the Counterstrike expansion enabled" + 
-                    " to be able to play the ant missions, please make sure counterstrike.mix is " + 
-                    "located inside the game folder.\n\n" + 
-                    "The expansion can be enabled in the config tool, please click" + 
-                    " the \"Options\" button in this launcher to open the config tool." + 
-                    " Then open up the \"Game options\" tab and toggle" + 
-                    " on the \"Enable Counterstrike expansion\" checkbox.", "Red Alert Launcher Error");
-            }
-            
+            System.Diagnostics.Process.Start(Path_ + seperator + "ra95.exe", "-ANTMISSIONS");
+            Application.Exit();           
         }
 
         private void but_LaunchNewMissions_Click(object sender, EventArgs e)
