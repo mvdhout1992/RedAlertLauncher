@@ -44,6 +44,20 @@ namespace RedAlertLauncher
 
             but_LaunchNewMissions.Select();
             //            EnableCompatMode(); // Doesn't work for everyone
+
+            if (File.Exists(Path_ + seperator + "edwin.exe") == false)
+            {
+                this.but_EDWINMapEditor.Visible = false;
+                this.panel17.Visible = false;
+                this.panel18.Visible = false;
+            }
+
+            if (File.Exists(Path_ + seperator + "raed.exe") == false)
+            {
+                this.but_RAEDMapEditor.Visible = false;
+                this.panel20.Visible = false;
+                this.panel19.Visible = false;
+            }
         }
 
         private bool CheckForInternetConnection()
@@ -245,6 +259,18 @@ namespace RedAlertLauncher
                 regKeyCompat.SetValue(GAMEPATH + GAME_EXE, compat);
             }
             catch { } // ignore
+        }
+
+        private void but_EDWINMapEditor_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(Path_ + seperator + "edwin.exe", "");
+            Application.Exit();    
+        }
+
+        private void but_RAEDMapEditor_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(Path_ + seperator + "raed.exe", "");
+            Application.Exit();    
         }
     }
 }

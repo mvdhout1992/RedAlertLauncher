@@ -7,3 +7,4 @@ C:\Users\Maikel\Desktop\RedAlertLauncher\obj\Debug\ResGen.read.1.tlog
 C:\Users\Maikel\Desktop\RedAlertLauncher\obj\Debug\ResGen.write.1.tlog
 C:\Users\Maikel\Desktop\RedAlertLauncher\obj\Debug\RedAlertLauncher.exe
 C:\Users\Maikel\Desktop\RedAlertLauncher\obj\Debug\RedAlertLauncher.pdb
+C:\Users\Maikel\Desktop\RedAlertLauncher\obj\Debug\RedAlertLauncher.Properties.Resources.resources
