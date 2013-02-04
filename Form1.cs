@@ -27,18 +27,6 @@ namespace RedAlertLauncher
         {
             Path_ = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
 
-            RedAlertINI = new IniFile(Path_ + seperator + "redalert.ini", false, BooleanMode.YES_NO, Encoding.Default);
-            bool ShowThreadingIssuesWarning = RedAlertINI.getBoolValue("Launcher", "ShowThreadingIssuesWarning", true);
-
-            if (ShowThreadingIssuesWarning)
-            {
-                MessageBox.Show("First time running the launcher. \n\nIf you experience laggy movies or choppy audio/sound ingame, you'll have to disable forcing the game to run on one CPU. \n\nYou can do this by opening the configuration tool (press the 'Options' button in this launcher). Then open the 'Video options' tab in the configuration tool and uncheck the 'Force Single CPU affinity' checkbox. \n\nIf your game freezes randomly ingame and the 'Force Single CPU Affinity' option is disabled. enable it.",
-                    "Red Alert Launcher Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-
-                RedAlertINI.setBoolValue("Launcher", "ShowThreadingIssuesWarning", false);
-                RedAlertINI.writeIni();
-            }
-
             Thread oThread = new Thread(new ThreadStart(Update_CnCNet_Player_Count));
             oThread.Start();
 
