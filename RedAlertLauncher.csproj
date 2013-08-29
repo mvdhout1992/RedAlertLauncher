@@ -86,6 +86,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="MapEditorsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MapEditorsForm.Designer.cs">
+      <DependentUpon>MapEditorsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Nyerguds.ini\BooleanMode.cs" />
     <Compile Include="Nyerguds.ini\IniFile.cs" />
     <Compile Include="Nyerguds.ini\IniSection.cs" />
@@ -93,6 +99,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MapEditorsForm.resx">
+      <DependentUpon>MapEditorsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -374,7 +374,7 @@
             this.but_EDWINMapEditor.Padding = new System.Windows.Forms.Padding(5);
             this.but_EDWINMapEditor.Size = new System.Drawing.Size(336, 31);
             this.but_EDWINMapEditor.TabIndex = 24;
-            this.but_EDWINMapEditor.Text = "EDWIN Map Editor";
+            this.but_EDWINMapEditor.Text = "Map Editors";
             this.but_EDWINMapEditor.UseCompatibleTextRendering = true;
             this.but_EDWINMapEditor.UseVisualStyleBackColor = false;
             this.but_EDWINMapEditor.Click += new System.EventHandler(this.but_EDWINMapEditor_Click);

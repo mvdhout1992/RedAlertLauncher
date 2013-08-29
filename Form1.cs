@@ -23,6 +23,20 @@ namespace RedAlertLauncher
             InitializeComponent();
         }
 
+        public static void Start_Application(string Filename, string Arguments)
+        {
+            string FilePath = Path_ + seperator + Filename;
+            if (File.Exists(FilePath))
+            {
+                System.Diagnostics.Process.Start(FilePath, Arguments);
+            }
+            else
+            {
+                String ErrorMessage = String.Format("Can't launch as executable file '{0}' wasn't found in the game directory.", Filename);
+                MessageBox.Show(ErrorMessage, "RedAlertLauncher Error");
+            }
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             Path_ = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
@@ -33,19 +47,19 @@ namespace RedAlertLauncher
             but_LaunchNewMissions.Select();
             //            EnableCompatMode(); // Doesn't work for everyone
 
-            if (File.Exists(Path_ + seperator + "edwin.exe") == false)
+/*            if (File.Exists(Path_ + seperator + "edwin.exe") == false)
             {
                 this.but_EDWINMapEditor.Visible = false;
                 this.panel17.Visible = false;
                 this.panel18.Visible = false;
-            }
+            } */
 
-            if (File.Exists(Path_ + seperator + "raed.exe") == false)
-            {
+//            if (File.Exists(Path_ + seperator + "raed.exe") == false)
+//            {
                 this.but_RAEDMapEditor.Visible = false;
                 this.panel20.Visible = false;
                 this.panel19.Visible = false;
-            }
+//            }
         }
 
         private bool CheckForInternetConnection()
@@ -99,7 +113,7 @@ namespace RedAlertLauncher
 
         private void but_Configuration_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(Path_ + seperator + "RedAlertConfig.exe");
+            Start_Application("RedAlertConfig.exe", "");
         }
 
         private void But_Exit_Click(object sender, EventArgs e)
@@ -109,37 +123,52 @@ namespace RedAlertLauncher
 
         private void but_PlayRedAlert_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(Path_ + seperator + "ra95.exe");
+            Start_Application("ra95.exe", "");
             Application.Exit();
         }
 
         private void but_PlayOnline_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(Path_ + seperator + "cncnet.exe");
+            Start_Application("cncnet.exe", "");
             Application.Exit();
         }
 
         private void but_OpenSkirmish_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(Path_ + seperator + "ra95.exe", "-SKIRMISH");
+            Start_Application("ra95.exe", "-SKIRMISH");
             Application.Exit();
         }
 
         private void but_OpenLAN_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(Path_ + seperator + "ra95.exe", "-LAN");
+            Start_Application("ra95.exe", "-LAN");
             Application.Exit();
         }
 
         private void but_LaunchAntMissions_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(Path_ + seperator + "ra95.exe", "-ANTMISSIONS");
+            Start_Application("ra95.exe", "-ANTMISSIONS");
             Application.Exit();           
         }
 
+        // Not used
         private void but_LaunchNewMissions_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(Path_ + seperator + "ra95.exe", "-NEWMISSIONS");
+            Start_Application("ra95.exe", "-NEWMISSIONS");
+            Application.Exit();
+        }
+
+        private void but_EDWINMapEditor_Click(object sender, EventArgs e)
+        {
+            MapEditorsForm form = new MapEditorsForm();
+            form.ShowDialog();
+            //Start_Application("edwin.exe", "");
+            //Application.Exit();
+        }
+
+        private void but_RAEDMapEditor_Click(object sender, EventArgs e)
+        {
+            Start_Application("raed.exe", "");
             Application.Exit();
         }
 
@@ -247,18 +276,6 @@ namespace RedAlertLauncher
                 regKeyCompat.SetValue(GAMEPATH + GAME_EXE, compat);
             }
             catch { } // ignore
-        }
-
-        private void but_EDWINMapEditor_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start(Path_ + seperator + "edwin.exe", "");
-            Application.Exit();    
-        }
-
-        private void but_RAEDMapEditor_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start(Path_ + seperator + "raed.exe", "");
-            Application.Exit();    
         }
     }
 }

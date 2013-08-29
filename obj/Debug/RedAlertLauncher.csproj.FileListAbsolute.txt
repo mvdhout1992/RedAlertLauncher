@@ -1,10 +1,10 @@
 C:\Users\Maikel\Desktop\PortableRA\RedAlertLauncher.exe.config
 C:\Users\Maikel\Desktop\PortableRA\RedAlertLauncher.exe
 C:\Users\Maikel\Desktop\PortableRA\RedAlertLauncher.pdb
-C:\Users\Maikel\Desktop\RedAlertLauncher\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Maikel\Desktop\RedAlertLauncher\obj\Debug\RedAlertLauncher.Form1.resources
-C:\Users\Maikel\Desktop\RedAlertLauncher\obj\Debug\ResGen.read.1.tlog
-C:\Users\Maikel\Desktop\RedAlertLauncher\obj\Debug\ResGen.write.1.tlog
 C:\Users\Maikel\Desktop\RedAlertLauncher\obj\Debug\RedAlertLauncher.exe
 C:\Users\Maikel\Desktop\RedAlertLauncher\obj\Debug\RedAlertLauncher.pdb
 C:\Users\Maikel\Desktop\RedAlertLauncher\obj\Debug\RedAlertLauncher.Properties.Resources.resources
+C:\Users\Maikel\Desktop\RedAlertLauncher\obj\Debug\RedAlertLauncher.csprojResolveAssemblyReference.cache
+C:\Users\Maikel\Desktop\RedAlertLauncher\obj\Debug\RedAlertLauncher.csproj.GenerateResource.Cache
+C:\Users\Maikel\Desktop\RedAlertLauncher\obj\Debug\RedAlertLauncher.MapEditorsForm.resources
