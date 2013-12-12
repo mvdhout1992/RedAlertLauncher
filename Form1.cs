@@ -132,7 +132,7 @@ namespace RedAlertLauncher
 
         private void but_PlayOnline_Click(object sender, EventArgs e)
         {
-            Start_Application("cncnet.exe", "");
+            Start_Application("cncnet5.exe", "");
             Application.Exit();
         }
 
