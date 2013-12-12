@@ -68,7 +68,7 @@
             this.but_PlayRedAlert.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_PlayRedAlert.FlatAppearance.BorderSize = 10;
             this.but_PlayRedAlert.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.but_PlayRedAlert.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_PlayRedAlert.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_PlayRedAlert.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_PlayRedAlert.Location = new System.Drawing.Point(213, 190);
             this.but_PlayRedAlert.Name = "but_PlayRedAlert";
@@ -119,7 +119,7 @@
             this.but_PlayOnline.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_PlayOnline.FlatAppearance.BorderSize = 10;
             this.but_PlayOnline.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.but_PlayOnline.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_PlayOnline.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_PlayOnline.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_PlayOnline.Location = new System.Drawing.Point(213, 227);
             this.but_PlayOnline.Name = "but_PlayOnline";
@@ -154,7 +154,7 @@
             this.but_LaunchAntMissions.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_LaunchAntMissions.FlatAppearance.BorderSize = 10;
             this.but_LaunchAntMissions.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.but_LaunchAntMissions.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_LaunchAntMissions.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_LaunchAntMissions.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_LaunchAntMissions.Location = new System.Drawing.Point(213, 338);
             this.but_LaunchAntMissions.Name = "but_LaunchAntMissions";
@@ -191,7 +191,7 @@
             this.but_LaunchNewMissions.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_LaunchNewMissions.FlatAppearance.BorderSize = 10;
             this.but_LaunchNewMissions.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.but_LaunchNewMissions.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_LaunchNewMissions.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_LaunchNewMissions.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_LaunchNewMissions.Location = new System.Drawing.Point(-142, 385);
             this.but_LaunchNewMissions.Name = "but_LaunchNewMissions";
@@ -227,7 +227,7 @@
             this.but_OpenLAN.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_OpenLAN.FlatAppearance.BorderSize = 10;
             this.but_OpenLAN.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.but_OpenLAN.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_OpenLAN.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_OpenLAN.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_OpenLAN.Location = new System.Drawing.Point(213, 301);
             this.but_OpenLAN.Name = "but_OpenLAN";
@@ -262,7 +262,7 @@
             this.but_OpenSkirmish.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_OpenSkirmish.FlatAppearance.BorderSize = 10;
             this.but_OpenSkirmish.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.but_OpenSkirmish.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_OpenSkirmish.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_OpenSkirmish.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_OpenSkirmish.Location = new System.Drawing.Point(213, 264);
             this.but_OpenSkirmish.Name = "but_OpenSkirmish";
@@ -297,7 +297,7 @@
             this.but_Exit.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_Exit.FlatAppearance.BorderSize = 10;
             this.but_Exit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.but_Exit.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_Exit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_Exit.Location = new System.Drawing.Point(213, 486);
             this.but_Exit.Name = "but_Exit";
@@ -332,7 +332,7 @@
             this.but_Configuration.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_Configuration.FlatAppearance.BorderSize = 10;
             this.but_Configuration.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.but_Configuration.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_Configuration.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_Configuration.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_Configuration.Location = new System.Drawing.Point(213, 449);
             this.but_Configuration.Name = "but_Configuration";
@@ -367,7 +367,7 @@
             this.but_EDWINMapEditor.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_EDWINMapEditor.FlatAppearance.BorderSize = 10;
             this.but_EDWINMapEditor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.but_EDWINMapEditor.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_EDWINMapEditor.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_EDWINMapEditor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_EDWINMapEditor.Location = new System.Drawing.Point(213, 375);
             this.but_EDWINMapEditor.Name = "but_EDWINMapEditor";
@@ -402,7 +402,7 @@
             this.but_RAEDMapEditor.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_RAEDMapEditor.FlatAppearance.BorderSize = 10;
             this.but_RAEDMapEditor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.but_RAEDMapEditor.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_RAEDMapEditor.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_RAEDMapEditor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_RAEDMapEditor.Location = new System.Drawing.Point(213, 412);
             this.but_RAEDMapEditor.Name = "but_RAEDMapEditor";

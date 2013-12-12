@@ -8,3 +8,13 @@ C:\Users\Maikel\Desktop\RedAlertLauncher\obj\Debug\RedAlertLauncher.Properties.R
 C:\Users\Maikel\Desktop\RedAlertLauncher\obj\Debug\RedAlertLauncher.csprojResolveAssemblyReference.cache
 C:\Users\Maikel\Desktop\RedAlertLauncher\obj\Debug\RedAlertLauncher.csproj.GenerateResource.Cache
 C:\Users\Maikel\Desktop\RedAlertLauncher\obj\Debug\RedAlertLauncher.MapEditorsForm.resources
+C:\Users\maikel\Desktop\RA95 Patch\PortableRA\RedAlertLauncher.exe.config
+C:\Users\maikel\Desktop\RA95 Patch\RedAlertLauncher\obj\Debug\RedAlertLauncher.exe
+C:\Users\maikel\Desktop\RA95 Patch\RedAlertLauncher\obj\Debug\RedAlertLauncher.pdb
+C:\Users\maikel\Desktop\RA95 Patch\PortableRA\RedAlertLauncher.exe
+C:\Users\maikel\Desktop\RA95 Patch\PortableRA\RedAlertLauncher.pdb
+C:\Users\maikel\Desktop\RA95 Patch\RedAlertLauncher\obj\Debug\RedAlertLauncher.csprojResolveAssemblyReference.cache
+C:\Users\maikel\Desktop\RA95 Patch\RedAlertLauncher\obj\Debug\RedAlertLauncher.Form1.resources
+C:\Users\maikel\Desktop\RA95 Patch\RedAlertLauncher\obj\Debug\RedAlertLauncher.MapEditorsForm.resources
+C:\Users\maikel\Desktop\RA95 Patch\RedAlertLauncher\obj\Debug\RedAlertLauncher.Properties.Resources.resources
+C:\Users\maikel\Desktop\RA95 Patch\RedAlertLauncher\obj\Debug\RedAlertLauncher.csproj.GenerateResource.Cache

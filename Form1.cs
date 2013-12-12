@@ -98,7 +98,7 @@ namespace RedAlertLauncher
 
             for (int i = 0; i < words.GetLength(0)-1; i++)
             {
-                if (words[i] == "ra95")
+                if (words[i] == "cncnet5")
                 {
                     Index = i;
                     break;
@@ -107,7 +107,10 @@ namespace RedAlertLauncher
             if (Index == -1) return;
 
 //            MessageBox.Show(words[17]);
-            String NewButtonText = String.Format("Online ({0} players)", words[Index+2]);
+            String PlayerCount = words[Index + 1];
+            PlayerCount = PlayerCount.Trim(new char[] { ':', ',' });
+
+            String NewButtonText = String.Format("Online ({0} players)", PlayerCount);
             but_PlayOnline.Text = NewButtonText;
         }
 
