@@ -138,7 +138,7 @@ namespace RedAlertLauncher
 
         private void but_OpenSkirmish_Click(object sender, EventArgs e)
         {
-            Start_Application("ra95.exe", "-SKIRMISH");
+            Start_Application("cncnet5.exe", "-skirmish -noupdate");
             Application.Exit();
         }
 
